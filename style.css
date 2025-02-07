@@ -156,3 +156,23 @@ button.sign-up {
     text-align: center;
     width: 100px;
 }
+
+.quote-wrapper {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.quote {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.signature {
+    color: #1f2937;
+    font-family: Roboto-Black;
+    display: flex;
+    justify-content: flex-end;
+}
