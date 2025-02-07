@@ -3,10 +3,26 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: Roboto-Thin, Roboto-Black, sans-serif;
+}
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url(fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(fonts/Roboto-Thin.ttf);
 }
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
     margin: 0;
     padding: 0;
 }
@@ -27,10 +43,12 @@ a:visited {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #e5e7eb;
+    padding-top: 16px;
 }
 
 .content {
-    width: 80vw;
+    width: 800px;
     display: flex;
     flex-direction: column;
 }
@@ -38,32 +56,62 @@ a:visited {
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    color: #e5e7eb;
-    font-size: 18px;
+    align-items: center;
 }
 
 .logo {
-    font-weight: 900;
     display: flex;
+    font-family: Roboto-Black;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .nav {
     display: flex;
+    gap: 16px;
 }
 
 .hero-wrapper {
     display: flex;
-    color: #e5e7eb;
+    justify-content: space-between;
+    margin: 100px 0;
 }
 
 .hero-main {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 400px;
+    height: 200px;
+    padding-right: 20px;
+}
+
+h1.hero-main {
+    font-size: 48px;
+    font-family: Roboto-Black;
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+}
+
+p.hero-main {
+    padding-bottom: 10px;
 }
 
 img.hero {
     width: 400px;
     height: 200px;
+}
 
+button {
+    border-radius: 8px;
+    padding: 4px 24px;
+    font-family: Roboto-Black;
+    border: none;
+}
+
+button.sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
 }
