@@ -115,3 +115,44 @@ button.sign-up {
     background-color: #3882f6;
     color: #f9faf8;
 }
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding-top: 32px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px;
+}
+
+.card-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    border-radius: 8px;
+    border: 2px solid #3882f6;
+    height: 100px;
+    width: 100px;
+}
+
+.card-info {
+    text-align: center;
+    width: 100px;
+}
