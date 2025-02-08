@@ -176,3 +176,40 @@ button.sign-up {
     display: flex;
     justify-content: flex-end;
 }
+
+.cta-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 35px 75px;
+    border-radius: 8px;
+}
+
+.cta {
+    font-size: 20px;
+    font-family: Roboto-Black;
+}
+
+.cta-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
